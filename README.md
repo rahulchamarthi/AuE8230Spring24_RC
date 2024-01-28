@@ -1,2 +1,4 @@
 # AuE8230Spring24_RC
-My(Rahul Chamarthi's) repo for AuE 8230 for Spring 2024 @ Clemson University
+My name is Rahul Chamarthi and I am a Master's student at Clemson University pursuing my MS in CS.
+
+This is my repo for the class's Spring 2024 session. 

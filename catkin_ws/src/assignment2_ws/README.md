@@ -20,5 +20,6 @@ Both python scripts can be run by executing the roslaunch command on the include
   roslaunch assignment2_ws assignment2_ws.launch
 ```
 
-The result will look something like the following; 2 windows will open with one executing the square_oneloop script, and the other executing the circle script. 
+The result will look something like the following; 2 windows will open with one executing the square_oneloop script, and the other executing the circle script:
 
+![alt text](https://github.com/rahulchamarthi/AuE8230Spring24_RC/blob/main/catkin_ws/src/assignment2_ws/photos/script_output.png)

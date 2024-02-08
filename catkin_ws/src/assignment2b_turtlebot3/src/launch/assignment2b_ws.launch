@@ -1,11 +1,9 @@
 <launch>
-	<group ns="turtlesim1"> 
-		<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_move_in_circle" output="screen"/>
-		<node pkg="assignment2_ws" type="circle.py" name="circle" output="screen"/>
-	</group>
-	
-	<group ns="turtlesim2">
-		<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_move_in_square" output="screen"/>
-		<node pkg="assignment2_ws" type="square_openloop.py" name="square" output="screen"/>
-	</group>
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+
+    <group ns="g1">
+        <node pkg="group1_assignment1" type="circle.py" name="circle" output="screen"/>
+    </group>
+    
+ 
 </launch>
